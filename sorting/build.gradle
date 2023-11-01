@@ -4,7 +4,7 @@ plugins {
 }
 
 application {
-    mainClass = 'com.collindigm.sorts.Sort'
+    mainClass = 'com.collindigm.sorts.App'
 }
 
 java {
