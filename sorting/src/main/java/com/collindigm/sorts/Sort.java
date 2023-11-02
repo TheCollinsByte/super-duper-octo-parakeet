@@ -1,7 +1,5 @@
 package com.collindigm.sorts;
 
-import java.util.Arrays;
-
 public class Sort {
     static String[] BubbleSort(String[] values) {
         var size = values.length;
@@ -16,11 +14,5 @@ public class Sort {
             size--;
         }
         return values;
-    }
-
-    public static void main(String[] args) {
-        String[] unsorted = {"John", "Zed", "Abraham", "Matt", "Ninja", "Kelvin", "Jane"};
-        String[] sorted = BubbleSort(unsorted);
-        System.out.println(Arrays.stream(sorted).toList());
     }
 }
